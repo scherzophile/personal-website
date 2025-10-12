@@ -271,14 +271,19 @@ input:hover {
 
 }
 
+.bottom-buttons-container {
+    margin-top: auto;
+}
+
 .try-it-out-btn {
-    width: 100%;
+    width: auto;
     background: transparent;
     text-align: center;
     padding: 10px;
     border: 3px solid white;
     border-radius: 10px;
-    margin-top: auto;
+    margin: 5px;
+    
     transition: 0.3s ease;
     cursor: pointer;
 }
