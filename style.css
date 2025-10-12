@@ -292,6 +292,14 @@ input:hover {
     border: 3px solid grey;
 }
 
+.try-disabled {
+    opacity: 0.2;
+}
+
+.try-disabled:hover {
+    
+}
+
 
 
 #section-experience {
