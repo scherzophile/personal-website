@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spencer Yuan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="bgtiles.js" defer></script>
+    <script src="navigation.js" defer></script>
+    <script src="particlebg.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <!-- Fixed gradient background so i can rotate it -->
+    <div class="fixed-bg"></div>
+
+    <div class="particles">
+
+    </div>
+
+    <div class="blocker"></div>
+
+    <!-- Nav bar on the top -->
+    <nav>
+        <div class="nav-element nav-title">Title</div>
+        <div class="nav-element nav-about">About Me</div>
+        <div class="nav-element nav-projects">Projects</div>
+        <div class="nav-element nav-experience">Experience</div>
+        <div class="nav-element nav-languages">Programming Languages</div>
+    </nav>
+    
+    <!-- Title Page / top of the page -->
+
+    <div class="section" id="top-section">
+        <div class="section" id="section-title">
+            <img src="img/pfp.png" alt="" class="profile-picture">
+            <div class="title-card">
+                <h1 class="title-name">Spencer Yuan</h1>
+                <div class="title-description">Student at Vincent Massey S.S.</div>
+            </div>
+            
+        </div>
+
+        <!-- Contact horizontal -->
+        <div class="section" id="section-contact">
+            <div class="contact-centered">
+                <!-- 
+                Email
+                Discord
+                -->
+                <div class="contact-square">
+                    <i class="fa-brands fa-discord contact-icon"></i>
+
+                    <a href="mailto:spencerkechengyuan@hotmail.com?subject=Hello!" class="contact-link">
+                        <i class="fa-solid fa-envelope contact-icon"></i>
+                    </a>
+                    
+                    <i class="fa-brands fa-github contact-icon"></i>
+
+
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div id="about-scroll"></div>
+    <!-- About ME :) -->
+    <div class="section" id="section-about">
+        <div class="section-title-text">About Me</div>
+        <div class="container">
+            <div class="left-container">
+                <div class="description">
+                    Hello! I'm Spencer, a senior student at Vincent Massey S. S. in Windsor, ON. I am an adventure seeker
+                    who is driven by mental and physical challenges. I'm really passionate about the world of 
+                    computer software and hardware. 
+                </div>
+                <br>
+                <div class="hobbies">
+                    A few hobbies of mine are:
+                    <ul>
+                        <li>Competitive Programming</li>
+                        <li>Musical Composition</li>
+                        <li>AI & Machine Learning</li>
+                        <li>Skiing</li>
+                        <li>Web Development</li>
+                        <li>Swimming</li>
+                        <li>Game Development</li>
+                        <li>Mountain Biking</li>
+                        <li>... and many more!</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="description">
+                    I hope to learn more about the wonderful, ever-changing society so that I can use
+                    my interests and passions to help shape the world to be a better place. 
+                </div>
+            </div>
+            <div class="right-container"></div>
+        </div>
+    </div>
+
+    <div class="section" id="section-buttons">
+        <input type="button" value="Computer Science">
+        <input type="button" value="Music" onclick="window.location.href='music.html'">
+        <input type="button" value="Sports">
+    </div>
+
+    <!-- Projects probably in a carousel -->
+    <div class="section-title-text">Featured Projects</div>
+    <div class="section" id="section-projects">
+
+        <div class="project">
+            <img src="img/typerelaybanner.png" alt="" class="project-image">
+            <div class="project-body">
+                <div class="project-title">TypeRelay</div>
+                <div class="project-description">
+                    TypeRelay is a touch type racing website where users can compete solo, in 1v1, or
+                    in 2v2 relays. Compete with others around the globe to determine the fastest
+                    typist!
+                </div>
+                <div class="project-tags">
+                    <div class="tag">HTML</div>
+                    <div class="tag">CSS</div>
+                    <div class="tag">JS</div>
+                    <div class="tag">Socket</div>
+                    <div class="tag">Node</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="img/placeholder.png" alt="" class="project-image">
+            <div class="project-body">
+                <div class="project-title">Project #2</div>
+                <div class="project-description">This is my second project that you should try out! </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gallery-container">
+        <input type="button" value="View Project Gallery" id="gallery-btn">
+    </div>
+    
+
+
+    <div class="section-title-text">Achievements</div>
+    <div class="section" id="section-experience">
+        <!-- Sort achievements by year>? -->
+
+    </div>
+
+    <div class="section-title-text">Experience</div>
+    <div class="section" id="section-experience">
+        <div id="section-experience-container">
+            <div class="exp">
+                <div class="exp-title">Hackathon Organizer - Tech</div>
+                <div class="exp-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    MasseyHacks
+                </div>
+                <div class="exp-time">
+                    <i class="fa-regular fa-calendar"></i>
+                    2024-2025
+                </div>
+                <div class="exp-description">
+                    MasseyHacks is Canada's first high school hackathon, which gives high school students
+                    24 hours to create, innovate, and present their projects while being able to
+                    experience a social event. As the Tech team, we created and maintained the back end,
+                    such as the <a href="https://masseyhacks.ca/">website</a> and the "hackenger hunt" - an online scavenger hunt. 
+                </div>
+            </div>
+
+            <div class="exp">
+                <div class="exp-title">Instructor</div>
+                <div class="exp-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    CodeReach
+                </div>
+                <div class="exp-time">
+                    <i class="fa-regular fa-calendar"></i>
+                    2024-2025
+                </div>
+                <div class="exp-description">
+                    https://codereach.ca/
+                </div>
+            </div>
+
+            <div class="exp">
+                <div class="exp-title">Instructor - Junior Stream</div>
+                <div class="exp-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Vincent Massey Computer Science Club
+                </div>
+                <div class="exp-time">
+                    <i class="fa-regular fa-calendar"></i>
+                    2024-2025
+                </div>
+                <div class="exp-description">
+                    Taught the Junior stream of VMSS Computer Science Club. This stream focuses on helping
+                    students learn the basics of python and having them collaborate on solving problems. 
+                    An introduction to applicable programming algorithms is covered as well. 
+                </div>
+            </div>
+
+            <div class="exp">
+                <div class="exp-title">FRC 4903 Robotics Team - Manufacturing Team</div>
+                <div class="exp-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    FRC 4903 - Mustangs
+                </div>
+                <div class="exp-time">
+                    <i class="fa-regular fa-calendar"></i>
+                    2022-2023
+                </div>
+                <div class="exp-description">
+                    Through manufacturing physical components for our team's robot (4903 Mustangs), I was able to help our team
+                    reach the First Robotics Competition World Stage Competition. 
+                </div>
+            </div>
+        </div>
+        
+
+        
+    </div>
+
+
+    <div class="section-title-text">Programming Language Proficiency</div>
+    <div class="section" id="section-languages">
+        <div class="lang">
+            <div class="lang-left">
+                <i class="fa-brands fa-python"></i>
+            </div>
+            <div class="lang-right">
+                <div class="lang-title">Python<div class="lang-years">5 years</div></div>
+                <div class="pro-bars">
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lang">
+            <div class="lang-left">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="lang-right">
+                <div class="lang-title">C++<div class="lang-years">4 years</div></div>
+                <div class="pro-bars">
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lang">
+            <div class="lang-left">
+                <i class="fa-brands fa-java"></i>
+            </div>
+            <div class="lang-right">
+                <div class="lang-title">Java<div class="lang-years">2 years</div></div>
+                <div class="pro-bars">
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lang">
+            <div class="lang-left">
+                <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="lang-right">
+                <div class="lang-title">HTML<div class="lang-years">4 years</div></div>
+                <div class="pro-bars">
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lang">
+            <div class="lang-left">
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="lang-right">
+                <div class="lang-title">CSS<div class="lang-years">4 years</div></div>
+                <div class="pro-bars">
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lang">
+            <div class="lang-left">
+                <i class="fa-brands fa-js"></i>
+            </div>
+            <div class="lang-right">
+                <div class="lang-title">JavaScript<div class="lang-years">3 years</div></div>
+                <div class="pro-bars">
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar pro-active"></div>
+                    <div class="pro-bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+<!-- 
+Things to do:
+1. better navigation bar
+- TOP navigation bar, only shows when i scroll down some certain amount
+
+2. Add DMOJ account, link GitHub account
+
+3. Work on image slideshow in the about me
+
+4. Work on getting typerelay actual project on github and link it to website
+- Tell the user how to host their own server
+- Also be sure to finish the project
+
+5. Github "i'd appreciate if report issues"
+
+- Achievements
+
+- Achievements
+
+-->
