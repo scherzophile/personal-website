@@ -301,6 +301,79 @@ input:hover {
 }
 
 
+#section-achievements {
+    display: flex;
+    justify-content: center;
+}
+
+.ach {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width:  750px;
+    border: 3px solid rgba(255, 255, 0, 0.596);
+    background-color: rgba(255, 255, 0, 0.322);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.ach-left {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+    border-radius: 50% 50%;
+}
+
+.ach-year {
+    margin-top: -12px;
+    font-weight: 900;
+    color: #FFB125;
+    font-size: 20px;
+}
+
+.ach-month {
+    font-size: 12px;
+    margin-top: -5px;
+    color: #ffb325d5;
+}
+
+.ach-2026 {
+    filter: none;
+}
+
+.ach-2025 {
+    filter: hue-rotate(180deg);
+}
+
+.ach-2024 {
+    filter:hue-rotate(90deg);
+}
+
+.ach-2023 {
+    filter: hue-rotate(270deg);
+}
+
+.ach-trophy {
+    width: 70px;
+}
+
+.ach-title {
+    font-weight: 900;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.ach-content {
+    e
+}
+
+
 
 #section-experience {
     display: flex;

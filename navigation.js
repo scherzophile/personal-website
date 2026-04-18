@@ -42,6 +42,12 @@ window.addEventListener("load", () => {
         const y = document.querySelector("#section-projects").getBoundingClientRect().top + window.scrollY - 150
         window.scrollTo({ top: y, behavior: "smooth" })
     })
+
+    document.querySelector(".nav-achievements").onclick = (() => {
+        const y = document.querySelector("#section-achievements").getBoundingClientRect().top + window.scrollY - 150
+        window.scrollTo({ top: y, behavior: "smooth" })
+    })
+
     document.querySelector(".nav-experience").onclick = (() => {
         const y = document.querySelector("#section-experience").getBoundingClientRect().top + window.scrollY - 80
         window.scrollTo({ top: y, behavior: "smooth" })
