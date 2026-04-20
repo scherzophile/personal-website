@@ -317,6 +317,13 @@ input:hover {
     background-color: rgba(255, 255, 0, 0.322);
     border-radius: 20px;
     margin: 10px;
+
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.ach:hover {
+    background-color: rgba(255, 255, 0, 0.151);
 }
 
 .ach-left {
