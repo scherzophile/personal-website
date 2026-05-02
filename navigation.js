@@ -1,3 +1,9 @@
+// We must make sure to show the animation each time :)
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+};
+
+
 //Get mouse pos for later
 attop = false
 window.addEventListener("mousemove", (event) => {
